@@ -12,8 +12,9 @@ namespace Test_2
         {
             var i = 5;
             var k = 5.2;
+            var l = false;
 
-            Console.WriteLine(i+k);
+            Console.WriteLine(i+k+l.ToInt32);
             Console.ReadLine();
         }
     }
