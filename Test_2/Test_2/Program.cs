@@ -11,7 +11,9 @@ namespace Test_2
         static void Main(string[] args)
         {
             var i = 5;
-                Console.WriteLine(i);
+            var k = 5.2;
+
+            Console.WriteLine(i+k);
             Console.ReadLine();
         }
     }
